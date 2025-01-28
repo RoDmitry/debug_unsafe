@@ -1,0 +1,16 @@
+[package]
+name = "debug_unsafe"
+version = "0.1.0"
+authors = ["Dmitry Rodionov <gh@rdmtr.com>"]
+description = "Unsafe getters and unwraps are safe in debug"
+documentation = "https://docs.rs/debug_unsafe/"
+repository = "https://github.com/RoDmitry/debug_unsafe"
+categories = ["development-tools::debugging", "rust-patterns"]
+keywords = ["debug", "unsafe", "unchecked", "unwrap"]
+readme = "README.md"
+license = "MIT OR Apache-2.0"
+edition = "2021"
+
+[lib]
+name = "debug_unsafe"
+path = "src/lib.rs"
