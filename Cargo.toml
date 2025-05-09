@@ -1,8 +1,8 @@
 [package]
 name = "debug_unsafe"
-version = "0.1.1"
+version = "0.1.2"
 authors = ["Dmitry Rodionov <gh@rdmtr.com>"]
-description = "Unsafe getters and unwraps are safe in debug"
+description = "For tests to trigger panic instead of UB in unsafe calls"
 documentation = "https://docs.rs/debug_unsafe/"
 repository = "https://github.com/RoDmitry/debug_unsafe"
 categories = ["development-tools::debugging", "rust-patterns", "no-std"]
