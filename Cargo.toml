@@ -12,6 +12,10 @@ readme = "README.md"
 license = "MIT OR Apache-2.0"
 edition = "2021"
 
+[package.metadata.docs.rs]
+all-features = true
+rustdoc-args = ["--cfg", "docsrs"]
+
 [lib]
 name = "debug_unsafe"
 path = "src/lib.rs"
