@@ -2,7 +2,7 @@
 name = "debug_unsafe"
 version = "0.1.3"
 authors = ["Dmitry Rodionov <gh@rdmtr.com>"]
-description = "For tests to trigger panic instead of UB in unsafe calls"
+description = "Uses `debug-assertions` as a switch of safe/unsafe behaviour"
 documentation = "https://docs.rs/debug_unsafe/"
 repository = "https://github.com/RoDmitry/debug_unsafe"
 categories = ["development-tools::debugging", "rust-patterns", "no-std"]
